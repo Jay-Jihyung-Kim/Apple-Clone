@@ -21,12 +21,12 @@
   width: 100%;
   max-width: 1000px;
   max-height: 1000px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-pic {
-  min-height: 63%;
-  height: 63%;
-  min-width: 63%;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -420,8 +420,8 @@
 
 @media screen and (max-width: 450px) {
   .main-pic {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
   .mac-text-div-secondary > p {
     font-size: 1rem;

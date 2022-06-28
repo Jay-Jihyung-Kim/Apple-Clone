@@ -14,13 +14,10 @@ const MainPictures = () => {
   return (
     <React.Fragment>
       <div className="box">
-        <Flash>
-          <Fade right>
-            <div className="main-image">
-              <img src={appleColor} alt="colorful apple" className="main-pic" />
-            </div>
-          </Fade>
-        </Flash>
+        <div className="main-image">
+          <img src={appleColor} alt="colorful apple" className="main-pic" />
+        </div>
+
         <div className="main-text">
           <h1>
             Introducing the all-new Mac Studio and Studio Display, new iPad Air,

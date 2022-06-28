@@ -1,7 +1,5 @@
 import React from "react";
 import appleColor from "./appleColor.jpg";
-import Flash from "react-reveal/Flash";
-import Fade from "react-reveal/Fade";
 import "./styles.css";
 import macColor from "../mac/macColor.jpg";
 import IpadAir from "./ipadair";
